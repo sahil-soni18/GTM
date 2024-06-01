@@ -1,0 +1,197 @@
+.director{
+    background-color: white;
+    width: 1600px;
+    height: 1500px;
+}
+
+.chair{
+    height: 550px;
+    width: 1500px;
+}
+
+.welcome{
+    align-items: center;
+    text-align: center;
+    position: relative;
+    /* height: 1000px; */
+    bottom: 200px;
+    font-size: 90px;
+    color: white;
+}
+
+.welcome1{
+    align-items: center;
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+    font-size: 30px;
+    color: white;
+}
+
+.wave{
+    height: 140px;
+    width: 1600px;
+    position: relative;
+    bottom: 260px;
+    right: 40px;
+}
+
+.curve{
+    height: 170px;
+    width: 350px;
+    position: relative;
+    bottom: 300px;
+    left: 610px;
+}
+
+.raja{
+    height: 220px;
+    width: 355px;
+    position: relative;
+    bottom: 75px;
+    left: 258px;
+}
+
+.profile{
+    height: 280px;
+    width: 280px;
+    position: relative;
+    bottom: 160px;
+    right: 60px;
+    border-radius: 50%;
+}
+
+.ceo{
+    height: 280px;
+    width: 350px;
+    position: relative;
+    bottom: 60px;
+    left: 642px;
+}
+
+.post{
+    width: 350px;
+    position: relative;
+    bottom: 280px;
+    left: 708px;
+}
+
+.team{
+    align-items: center;
+    text-align: center;
+    width: 550px;
+    font-size: x-large;
+    font-weight: 500;
+    position: relative;
+    bottom: 1150px;
+    left: 518px;
+}
+.curve1{
+    height: 125px;
+    width: 240px;
+    position: relative;
+    bottom: 1050px;
+    left: 150px;
+}
+.raja1{
+    height: 125px;
+    width: 240px;
+    position: relative;
+    bottom: 920px;
+    right: 90px;
+}
+.profile1{
+    height: 205px;
+    width: 220px;
+    position: relative;
+    bottom: 1170px;
+    /* right: 100px; */
+    left: 30px;
+    border-radius: 50%;
+}
+.name{
+    position: relative;
+    bottom: 1100px;
+    left: 30px;
+    font-size: medium;
+}
+.post1{
+    width: 240px;
+    font-size: smaller;
+    position: relative;
+    bottom: 1090px;
+    left: 170px;
+}
+
+.member2{
+    position: relative;
+    left: 520px;
+    bottom: 245px;
+}
+
+.member3{
+    position: relative;
+    left: 1000px;
+    bottom: 485px;
+}
+
+.member4{
+    position: relative;
+    bottom: 340px;
+}
+
+.member5{
+    position: relative;
+    left: 520px;
+    bottom: 585px;
+}
+
+.member6{
+    position: relative;
+    left: 1000px;
+    bottom: 828px;
+}
+
+.member {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .memberItem {
+    flex: 0 0 calc(33.333% - 20px); /* Adjust width as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+
+  .member {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    position: relative;
+    bottom: 70px;
+  }
+  
+  .memberItem {
+    flex-basis: calc(33.333% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .memberItem img {
+    max-width: 100%;
+  }
+  
+  .memberItem .avatar-frame {
+    position: relative;
+  }
+  
+  .memberItem .avatar-frame img {
+    max-width: 100%;
+  }
+  
+  .memberItem .name,
+  .memberItem .position {
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,291 @@
+/* .pp{
+    color: aliceblue;
+}
+
+.gd{
+    background-color: rgb(255, 255, 255);
+    font-size: x-large;
+    justify-content: flex-start;
+    padding-left: 7%;
+    padding-right: 60%;
+    padding-top: 20vh; /* Adjust this value as needed */
+/* }
+
+.gd1{
+    height: 80vh;
+    width: 80vh;
+    position: relative;
+    padding-left: 120%;
+    margin-top: -125%;
+    
+}
+.gd2{
+    height: 80vh;
+    width: 80vh;
+    position: relative;
+    padding-left: 120%;
+    margin-top: -125%;
+}
+.gd3{
+    height: 500px;
+    width: 550px;
+    position: relative;
+    padding-left: 130%;
+    margin-top: -130%;
+} */ 
+.pp{
+    color: aliceblue;
+}
+
+.bg{
+    height: 370px;
+    width: 743px;
+}
+
+.Aboutus{
+    height: 350px;
+    width: 1343px;
+}
+
+.Aboutus img {
+    height: 520px;
+    width: auto;
+}
+
+.Aboutus p {
+    width: 300px;
+    font-size: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 290px;
+    left: 613px;
+}
+
+.Aboutus p1 {
+    width: 200px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 550px;
+    left: 680px;
+}
+
+.sun p{
+    width: 1px;
+    height: 1px;
+    background-color: rgb(221, 52, 0);
+    position: relative;
+    left: 740px;
+    top: 0px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 600px 200px rgb(221, 52, 0);
+}
+
+.Aboutus .ring {
+    height: 300px;
+    width: 400px;
+    position: relative;
+    bottom: 423px;
+    left: 1000px;
+}
+
+.Aboutus .world {
+    height: 300px;
+    width: 550px;
+    position: relative;
+    bottom: 416px;
+    right: 500px;
+}
+
+.gd{
+    background-color: rgb(255, 255, 255);
+    font-size: x-large;
+    justify-content: flex-start;
+    padding-left: 70px;
+    padding-right: 10px;
+    padding-top: 20px; /* Adjust this value as needed */
+
+}
+
+.gd H1{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+
+.gd p{
+    width: 500px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.gd1{
+    height: 400px;
+    width: 450px;
+    position: relative;
+    padding-left: 804px;
+    bottom: 400px;
+    animation-name: RightToLeft; /* Use the defined keyframes */
+    animation-duration: 3s; /* Animation duration */
+    animation-timing-function: ease-in-out; /* Animation timing function */
+    animation-fill-mode: both; /* Keep the final state of the animation */
+    
+}
+
+.service{
+    height: 200px;
+    width: 1200px;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    top: 200px;
+    left: 90px;
+}
+
+.gd2{
+    height: 400px;
+    width: 450px;
+    position: relative;
+    padding-left: 800px;
+    bottom: 400px;
+    animation-name: RightToLeft; /* Use the defined keyframes */
+    animation-duration: 7s; /* Animation duration */
+    animation-timing-function: ease-in-out; /* Animation timing function */
+    animation-fill-mode: both; /* Keep the final state of the animation */
+}
+.gd3{
+    height: 350px;
+    width: 400px;
+    position: relative;
+    left: 810px;
+    bottom: 400px;
+    animation-name: RightToLeft; /* Use the defined keyframes */
+    animation-duration: 11s; /* Animation duration */
+    animation-timing-function: ease-in-out; /* Animation timing function */
+    animation-fill-mode: both; /* Keep the final state of the animation */
+}
+
+.who{
+    height: 500px;
+}
+
+.who H1{
+    
+    animation-name: leftToRight; /* Use the defined keyframes */
+    animation-duration: 3s; /* Animation duration */
+    animation-timing-function: ease-in-out; /* Animation timing function */
+    animation-fill-mode: both; /* Keep the final state of the animation */
+}
+
+.who P{
+    
+    animation-name: leftToRight; /* Use the defined keyframes */
+    animation-duration: 3s; /* Animation duration */
+    animation-timing-function: ease-in-out; /* Animation timing function */
+    animation-fill-mode: both; /* Keep the final state of the animation */
+}
+
+.mission H1{
+    animation-name: leftToRight; /* Use the defined keyframes */
+    animation-duration: 7s; /* Animation duration */
+    animation-timing-function: ease-in-out; /* Animation timing function */
+    animation-fill-mode: both; /* Keep the final state of the animation */
+}
+
+.mission P{
+    animation-name: leftToRight; /* Use the defined keyframes */
+    animation-duration: 7s; /* Animation duration */
+    animation-timing-function: ease-in-out; /* Animation timing function */
+    animation-fill-mode: both; /* Keep the final state of the animation */
+}
+
+.vision H1{
+    animation-name: leftToRight; /* Use the defined keyframes */
+    animation-duration: 7s; /* Animation duration */
+    animation-timing-function: ease-in-out; /* Animation timing function */
+    animation-fill-mode: both; /* Keep the final state of the animation */
+}
+
+.vision P{
+    animation-name: leftToRight; /* Use the defined keyframes */
+    animation-duration: 7s; /* Animation duration */
+    animation-timing-function: ease-in-out; /* Animation timing function */
+    animation-fill-mode: both; /* Keep the final state of the animation */
+}
+
+.what H1{
+    animation-name: leftToRight; /* Use the defined keyframes */
+    animation-duration: 11s; /* Animation duration */
+    animation-timing-function: ease-in-out; /* Animation timing function */
+    animation-fill-mode: both; /* Keep the final state of the animation */
+}
+
+.what P{
+    animation-name: leftToRight; /* Use the defined keyframes */
+    animation-duration: 11s; /* Animation duration */
+    animation-timing-function: ease-in-out; /* Animation timing function */
+    animation-fill-mode: both; /* Keep the final state of the animation */
+}
+
+.wave{
+    height: 100px;
+    width: 1600px;
+    position: relative;
+    bottom: 1900px; 
+    right: 70px;
+}
+.text2{
+    position: relative;
+    padding-left: 400px;
+    top: -120px;
+}
+
+
+.text3{
+    position: relative;
+    padding-left: 800px;
+    top: -240px;
+}
+.box h1 {
+    color: white; /* Removed quotes */
+    padding-left: 220px; /* Changed paddingLeft to padding-left */
+    position: relative;
+    top: 45px; /* Removed quotes */
+}
+
+
+
+/* Define keyframes for left to right animation */
+@keyframes leftToRight {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+@keyframes RightToLeft {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+      
+
+
+  .arrange {
+    transform: translateY(170px);
+  }
+
+  @media screen and (max-width: 600px) {
+    .gd {
+        width: 217vw;;
+    }
+  }

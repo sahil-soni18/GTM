@@ -1,0 +1,194 @@
+.services{
+    width: auto;
+    height: 2200px;
+    background-color: white;
+}
+
+
+.serviceimage{
+    height: 660px;
+    width: 1600px;
+}
+
+.servicetitle{
+    position: relative;
+    bottom: 170px;
+    left: 600px;
+    font-size: 40px;
+    color: white;
+}
+.subtitle{
+    position: relative;
+    bottom: 170px;
+    left: 720px;
+    color: white;
+}
+.wave{
+    height: 150px;
+    width: 1600px;
+    position: relative;
+    bottom: 180px;
+    right: 40px;
+}
+
+.motive{
+    align-items: center;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+    font-size: 60px;
+    color: rgb(255, 81, 0);
+}
+.defineservice{
+    position: relative;
+    left: 100px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.types{
+    position: relative;
+    bottom: 35px;
+    left: 1100px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.banner {
+    width: 300px;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 1000px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+.banner1 {
+    width: 300px;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 1000px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 2px -2px rgba(0, 0, 0, 0.2);
+}
+.banner2 {
+    width: 300px;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 1000px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 2px -2px rgba(0, 0, 0, 0.2);
+    
+}
+.banner3 {
+    width: 300px;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 1000px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 2px -2px rgba(0, 0, 0, 0.2);
+}
+.banner4 {
+    width: 300px;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 1000px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 2px -2px rgba(0, 0, 0, 0.2);
+}
+.banner5 {
+    width: 300px;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 1000px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 2px -2px rgba(0, 0, 0, 0.2);
+}
+.banner6 {
+    width: 300px;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 1000px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 600px) {
+    .serviceimage {
+        width: 100%;
+        height: auto;
+    }
+
+    .servicetitle, .subtitle {
+        position: static;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .wave {
+        width: 100%;
+        height: auto;
+        position: static;
+    }
+
+    .motive {
+        position: static;
+        font-size: 32px;
+    }
+
+    .defineservice, .types {
+        position: static;
+        font-size: 18px;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .banner, .banner1, .banner2, .banner3, .banner4, .banner5, .banner6 {
+        width: 90%;
+        margin: 10px auto;
+        left: 0;
+    }
+}
+  

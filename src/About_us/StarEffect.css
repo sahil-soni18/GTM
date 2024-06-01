@@ -1,0 +1,26 @@
+.star {
+    position: absolute;
+    top: 0px;
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: starAnimation linear infinite;
+  }
+  
+  @keyframes starAnimation {
+    0% {
+      transform: translateY(0) scale(1);
+      opacity: 100;
+    }
+    100% {
+      transform: translateY(200px) scale(0);
+      opacity: 0;
+  }
+  }
+
+  @media screen and (max-width: 600px) {
+    .star {
+      visibility: hidden;
+    }
+  }

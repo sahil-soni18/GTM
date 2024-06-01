@@ -1,0 +1,179 @@
+#root {
+    background-color: black;
+  }
+  
+  .Header {
+    height: 100px;
+    width: 95vw;
+    background-color: black;
+  }
+  
+  .ScrollableHeader {
+    width: auto;
+    height: 1200px;
+    background-color: lightblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  .shadow {
+    height: 80px;
+    width: 80px;
+    background-color: rgba(227, 233, 238, 0.921);
+    position: relative;
+    left: 745px;
+    top: 280px;
+    border-radius: 50%;
+    box-shadow: 50px 50px 100px 100px rgba(239, 237, 237, 0.75);
+  }
+  
+  .Header2 {
+    height: 850px;
+    width: 745px;
+    background-color: rgba(48, 41, 41, 0.459);
+    position: relative;
+    top: -470px; /* Adjusted top position */
+  }
+  
+  .text1 {
+    height: 20px;
+    width: 200px;
+    position: relative;
+    top: 250px; /* Adjusted top position */
+    left: 50px;
+    animation: moveUpDown 17s linear infinite;
+  }
+  
+  .Header2 H1 {
+    font-size: 35px;
+    color: aliceblue;
+    position: relative;
+    left: 50px;
+    top: 250px; /* Adjusted top position */
+    animation: moveUpDown 17s linear infinite;
+  }
+  
+  .Header2 H2 {
+    font-size: 35px;
+    color: aliceblue;
+    position: relative;
+    left: 50px;
+    top: 250px; /* Adjusted top position */
+    animation: moveUpDown 17s linear infinite;
+  }
+  
+  .Header2 H3 {
+    font-size: 25px;
+    margin-top: 15px;
+    color: aliceblue;
+    position: relative;
+    left: 50px;
+    top: 250px; /* Adjusted top position */
+    animation: moveUpDown 17s linear infinite;
+  }
+  
+  .lets_start_button {
+    background-color: #c0392b;
+    margin-top: 15px;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    top: 250px; /* Adjusted top position */
+    left: 50px;
+    animation: moveUpDown 17s linear infinite;
+  }
+  
+  .image1 {
+    height: 340px;
+    width: 95px;
+    position: relative;
+    top: 135px; /* Adjusted top position */
+    left: 745px;
+  }
+  
+  .shadow2 {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(193, 86, 19, 0.921);
+    position: relative;
+    left: 520px;
+    top: 320px; /* Adjusted bottom position */
+    border-radius: 50%;
+    box-shadow: 0px 0px 550px 90px rgba(245, 80, 80, 0.75);
+  }
+  
+  .Header3 {
+    height: 1173px;
+    width: auto;
+    background-color: rgba(48, 41, 41, 0.26);
+    position: relative;
+    top: -1643px; /* Adjusted top position */
+    left: 744px;
+  }
+  
+  .Rating {
+    height: 80px;
+    width: 300px;
+    position: relative;
+    top: 770px; /* Adjusted top position */
+    left: 320px;
+  }
+  
+  .Header3 H1 {
+    width: 370px;
+    font-size: 30px;
+    color: aliceblue;
+    position: relative;
+    left: 270px;
+    top: 780px; /* Adjusted top position */
+  }
+  
+  .know_more_button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2cm solid;
+    border-color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    top: 800px; /* Adjusted top position */
+    left: 470px;
+  }
+  
+  .image2 {
+    height: 250px;
+    width: 270px;
+    position: relative;
+    left: 475px;
+    top: 135px; /* Adjusted bottom position */
+  }
+  
+  @keyframes moveUpDown {
+    0%, 100% {
+        top: 250px;
+    }
+    50% {
+        top: 300px;
+    }
+  }
+  
+  #Header .Header2 .text1 {
+    position: absolute;
+    font-size: 24px;
+    color: #ff6347; /* Tomato color */
+      animation: moveUpDown 10s linear infinite;
+    }

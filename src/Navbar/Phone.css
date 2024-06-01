@@ -1,0 +1,53 @@
+@media screen and (max-width: 600px) {
+
+    .button-row1 {
+          /* visibility: hidden; */
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(95, 20, 20);
+    padding: 30px;
+    /* margin-top: 17px; */
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: 100px;
+    font-size: 30px;
+    position: relative;
+    bottom: 140px;
+    left: 900px;
+      }
+
+    .button-row{
+      visibility: hidden;
+    }   
+
+      .menu-icon {
+        position: relative;
+        visibility: visible;
+        bottom: 450px;
+        left: 1200px;
+    
+      }
+
+      .logo1{
+        position: relative;
+        height: 95px;
+        bottom: 90px;
+        left: 100px;
+      }
+      .logo2{
+        position: relative;
+        height: 40px;
+        left: 10px;
+        bottom: 110px;
+      }
+      .logo3{
+         
+
+        position: relative;
+        height: 100px;
+        left: -105px;
+  
+      }
+  }
